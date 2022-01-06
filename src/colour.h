@@ -6,6 +6,3 @@
 #define magenta  "\x1B[35m"
 #define cyan  "\x1B[36m"
 #define white "\x1B[37m"
-void printfclr(char color[256], char message[1024]){
-	printf("%s%s%s",color,message,normal);
-}
