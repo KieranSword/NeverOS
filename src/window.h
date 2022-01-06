@@ -1,3 +1,4 @@
+// Header for creating windows
 #define border "#"
 void create_window(int x, int y, int width, int height, char title[128]){
 	int r, c;
